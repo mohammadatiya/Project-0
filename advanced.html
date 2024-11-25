@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+<title>Google Advanced Search</title>
+<link rel="stylesheet" href="style.css">
+   </head>
+
+   <body>
+<header>
+      <nav>
+<a href="index.html">Google Search</a>
+      </nav>
+</header>
+
+<main>
+    <form action=" https://www.google.com/search" method="GET"> <!--for every form action we but the origen urlm of google and we point to what we need by using "GET"-->
+
+      <label>Find pages with... <strong>these words:</strong> <input type="text" name="as_q"> </label> <!--strong is for making the text bold!-->
+      <label>Find pages with... <strong>exact word or phrase:</strong> <input type="text" name="as_epq"></label>
+      <label>Find pages with... <strong>any of these words:</strong> <input type="text" name="as_oq"></label>
+      <label>Find pages with... <strong>none of these words:</strong> <input type="text" name="as_eq"></label>
+     
+     
+      <button type="submit"> Advanced Search</button>  <!--button does not requre a value-->
+    </form>
+</main>
+    
+   </body>
+
+</html>
+
+
+
